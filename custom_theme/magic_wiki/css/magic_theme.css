@@ -1,20 +1,35 @@
-
-
+/********************/
+/* Navigation Panel */
+/********************/
 .wy-side-nav-search {
     background-color: var(--red_mana);
     font-family: MagicTheGathering;
 }
 
+.icon-home {
+    font-weight: normal !important;
+}
+.icon-home::before {
+    content: '';
+}
+
+/*****************/
+/* Content Panel */
+/*****************/
+/* Top Nav Bar */
+.navigation-bar {
+    font-size: 12px;
+}
+
+/* Content Panel */
 .wy-nav-content {
-    background-color: var(--white_mana);
+    background-color: #eeeeee;
     min-height: 100vh;
     min-height: 100vh;
 }
 
+/* Background */
 .wy-nav-content-wrap {
     background-color: var(--black_mana);
 }
 
-.navigation-bar {
-    font-size: 12px;
-}

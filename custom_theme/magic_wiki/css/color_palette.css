@@ -1,5 +1,7 @@
 :root {
+    --black_mana: #343131;
+    --blue_mana: #3885D9;
+    --green_mana: #00734B;
     --red_mana: #B40017;
     --white_mana: #F0EED1;
-    --black_mana: #343131;
 }

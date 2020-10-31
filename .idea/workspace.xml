@@ -11,12 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00cc0786-a85d-4852-ae4d-3ad30a4bef7c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/custom_theme/magic_wiki/css/color_palette.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/custom_theme/magic_wiki/css/fonts.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom_theme/magic_wiki/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/custom_theme/magic_wiki/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom_theme/magic_wiki/breadcrumbs.html" beforeDir="false" afterPath="$PROJECT_DIR$/custom_theme/magic_wiki/breadcrumbs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom_theme/magic_wiki/css/color_palette.css" beforeDir="false" afterPath="$PROJECT_DIR$/custom_theme/magic_wiki/css/color_palette.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/custom_theme/magic_wiki/css/magic_theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/custom_theme/magic_wiki/css/magic_theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mkdocs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mkdocs.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,8 +66,16 @@
       <option name="presentableId" value="Default" />
       <updated>1604166125026</updated>
       <workItem from="1604166126146" duration="1924000" />
-      <workItem from="1604168084972" duration="1340000" />
+      <workItem from="1604168084972" duration="1792000" />
     </task>
+    <task id="LOCAL-00001" summary="WIP">
+      <created>1604169497106</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604169497106</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,6 +91,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="WIP" />
+    <option name="LAST_COMMIT_MESSAGE" value="WIP" />
   </component>
   <component name="WindowStateProjectService">
     <state x="715" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604169333284">
