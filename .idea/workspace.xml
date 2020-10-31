@@ -11,10 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00cc0786-a85d-4852-ae4d-3ad30a4bef7c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/docs/modes_and_formats.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom_theme/magic_wiki/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/custom_theme/magic_wiki/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom_theme/magic_wiki/css/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/custom_theme/magic_wiki/css/fonts.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/custom_theme/magic_wiki/css/magic_theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/custom_theme/magic_wiki/css/magic_theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom_theme/magic_wiki/mkdocs_theme.yml" beforeDir="false" afterPath="$PROJECT_DIR$/custom_theme/magic_wiki/mkdocs_theme.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mkdocs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mkdocs.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604166125026</updated>
       <workItem from="1604166126146" duration="1924000" />
-      <workItem from="1604168084972" duration="3454000" />
+      <workItem from="1604168084972" duration="5184000" />
     </task>
     <task id="LOCAL-00001" summary="WIP">
       <created>1604169497106</created>
@@ -90,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604170214983</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="WIP">
+      <created>1604171714969</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604171714969</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,9 +117,9 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="WIP" />
     <MESSAGE value="Remove search" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove search" />
+    <MESSAGE value="WIP" />
+    <option name="LAST_COMMIT_MESSAGE" value="WIP" />
   </component>
   <component name="WindowStateProjectService">
     <state x="715" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604169333284">
@@ -121,9 +130,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604166199740" />
-    <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1604170193105">
+    <state x="774" y="222" key="RollbackChangesDialog" timestamp="1604172253728">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="667" y="253" width="585" height="534" key="find.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604170193105" />
+    <state x="774" y="222" key="RollbackChangesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604172253728" />
+    <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1604172954528">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="253" width="585" height="534" key="find.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604172954528" />
   </component>
 </project>
