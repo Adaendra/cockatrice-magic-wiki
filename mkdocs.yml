@@ -5,10 +5,14 @@ site_author: Adaendra
 ## Navigation
 nav: 
   - Accueil : index.md
-  - Modes et formats: modes_and_formats.md
+  - Modes et formats:
+    - Modes: modes.md
+    - Formats: formats.md
+  - Decks :
+      - Deck 1 : decks/deck1.md
 
 ## Theme
 theme:
   name: null
   custom_dir: 'custom_theme/magic_wiki/'
-  navigation_depth: 4
+  navigation_depth: 1
