@@ -1,0 +1,101 @@
+.mtg-card {
+    border: solid black 2px;
+    border-radius: 4px;
+    padding: 4px 8px;
+}
+
+.mtg-card-top {
+    display: flex;
+}
+
+.mtg-card-quantity {
+    font-family: 'Roboto Slab';
+    width: 20px;
+    margin-right: 8px;
+    padding-right: 8px;
+    border-right: solid 1px rgba(0, 0, 0, 0.6);
+    text-align: center;
+}
+
+.mtg-card-titre {
+    font-family: 'Roboto Slab';
+    font-weight: 600;
+    width: calc(50% - 18px);
+}
+
+.mtg-card-mana {
+    display: flex;
+    width: calc(50% - 18px);
+    justify-content: flex-end;
+}
+
+.mana-circle {
+    width: 1.5em;
+    height: 1.5em;
+    line-height: 1.5em;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 8px;
+    background-size: 1.5em 1.5em;
+    /*
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 50%;
+    text-align: center;
+     */
+}
+
+/* --- CARD ---  */
+.card-black {
+    border-color: var(--black_mana);
+    background-color: rgba(var(--black_mana-rgb), 0.6);
+}
+.card-blue {
+    border-color: var(--blue_mana);
+    background-color: rgba(var(--blue_mana-rgb), 0.6);
+}
+.card-green {
+    border-color: var(--green_mana);
+    background-color: rgba(var(--green_mana-rgb), 0.6);
+}
+.card-red {
+    border-color: var(--red_mana);
+    background-color: rgba(var(--red_mana-rgb), 0.6);
+}
+.card-white {
+    border-color: var(--black_mana);
+    background-color: rgba(var(--white_mana-rgb), 1);
+}
+.card-colorless {
+    border-color: var(--black_mana);
+    background-color: rgba(var(--colorless_mana-rgb), 0.8);
+}
+
+/* --- MANA --- */
+.mana-any {
+    background: var(--colorless_mana);
+}
+.mana-colorless {
+    /* background: var(--colorless_mana); */
+    background-image: url("./../img/colorless_mana.png");
+}
+.mana-black {
+    /* background: var(--black_mana); */
+    background-image: url("./../img/black_mana.png");
+}
+.mana-blue {
+    /* background: var(--blue_mana); */
+    background-image: url("./../img/blue_mana.png");
+}
+.mana-green {
+    /* background: var(--green_mana); */
+    background-image: url("./../img/green_mana.png");
+}
+.mana-red {
+    /* background: var(--red_mana); */
+    background-image: url("./../img/red_mana.png");
+}
+.mana-white {
+    /* background: var(--white_mana); */
+    background-image: url("./../img/white_mana.png");
+}

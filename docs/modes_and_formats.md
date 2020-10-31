@@ -2,6 +2,10 @@
 
 ## Modes
 ### Chacun pour soi
+* Nombre de joueurs : 2+
+* Nombre de PV/joueur : 20
+* Description
+test
 
 ### Pentagramme
 

@@ -26,6 +26,7 @@
   <link rel="stylesheet" href="{{ 'css/theme.css'|url }}" />
   <link rel="stylesheet" href="{{ 'css/theme_extra.css'|url }}" />
   <link rel="stylesheet" href="{{ 'css/magic_theme.css'|url }}" />
+  <link rel="stylesheet" href="{{ 'css/mtg-card.css'|url }}" />
   {%- if config.theme.highlightjs %}
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" />
   {%- endif %}
@@ -123,9 +124,59 @@
         <div class="rst-content">
           {% include "breadcrumbs.html" %}
           <div role="main">
-            <div class="section">
+            <div class="section" id="content-section-js">
               {% block content %}
-                {{ page.content }}
+                <script>
+
+                  var l = `{{ page.content | string }}`.split('\n')
+                  var jsonCard = false;
+                  for(var i=0; i<l.length; i++) {
+                    if (l[i] == '<blockquote>') {
+                      jsonCard = true;
+                    }
+                    if (l[i] == '</blockquote>') {
+                      jsonCard = false;
+                    }
+                    if (jsonCard) {
+                      var newL = l[i].substr(3, l[i].length-3-4)
+                      if (newL.startsWith('{') && newL.endsWith('}')) {
+                        var jsonL = JSON.parse(newL);
+                        console.log(jsonL)
+                        l[i] = "<div class='mtg-card card-" + jsonL.color + "'>"
+
+                        l[i] = l[i] + "<div class='mtg-card-top'>"
+                        l[i] = l[i] + "<div class='mtg-card-quantity' title='Quantité'>" + jsonL.quantity + "</div>"
+                        l[i] = l[i] + "<div class='mtg-card-titre' title='Nom de la carte'>" + jsonL.name + "</div>"
+                        if (jsonL.mana != null && jsonL.mana != undefined) {
+                          l[i] = l[i] + "<div class='mtg-card-mana' title='Mana'>"
+                          for (var j = 0; j < jsonL.mana.length; j++) {
+                            if (jsonL.mana[j].color == '') {
+                              l[i] = l[i] + "<div class='mana-circle mana-any'>" + jsonL.mana[j].value + "</div>";
+                            } else {
+                              for (var k = 0; k < parseInt(jsonL.mana[j].value); k++) {
+                                l[i] = l[i] + "<div class='mana-circle mana-" + jsonL.mana[j].color + "'></div>";
+                              }
+                            }
+                          }
+                          l[i] = l[i] + "</div>" // End Mana
+                        }
+                        l[i] = l[i] + "</div>" // End Top
+
+                        l[i] = l[i] + "</div>"
+
+                      }
+                    }
+                  }
+                  var l2 = "";
+                  for(var i=0; i<l.length; i++) {
+                    if (l[i+1] != null && l[i+1] != undefined) {
+                      l2 = l2 + l[i + 1]
+                    }
+                  }
+
+                  document.getElementById('content-section-js').innerHTML = l2;
+                </script>
+                <!-- {{ page.content }} -->
               {% endblock %}
             </div>
           </div>

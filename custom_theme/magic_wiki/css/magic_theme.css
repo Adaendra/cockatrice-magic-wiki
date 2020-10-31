@@ -1,3 +1,11 @@
+body {
+    cursor: default;
+    user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+}
+
 /********************/
 /* Navigation Panel */
 /********************/
@@ -47,6 +55,10 @@ h3, h4, h5 {
     margin-left: 40px;
 }
 
+blockquote {
+    margin: 0px !important;
+}
+
 
 /* Footer */
 footer {
@@ -57,4 +69,5 @@ footer {
 .wy-nav-content-wrap {
     background-color: var(--black_mana);
 }
+
 
