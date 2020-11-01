@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'MagicTheGathering';
+    src: url("../fonts/magicthegathering/MAGIC.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'WizardWorldFont';
+    src: url("../fonts/wizard-world-font/WizardWorldSimplified.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal
+}

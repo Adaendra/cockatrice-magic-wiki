@@ -1,0 +1,74 @@
+body {
+    cursor: default;
+    user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+}
+
+/********************/
+/* Navigation Panel */
+/********************/
+.wy-side-nav-search {
+    background-color: var(--red_mana);
+    font-family: WizardWorldFont;
+    height: 4em;
+}
+
+.icon-home {
+    font-weight: normal !important;
+}
+.icon-home::before {
+    content: '';
+}
+
+/*****************/
+/* Content Panel */
+/*****************/
+/* Top Nav Bar */
+.navigation-bar {
+    font-size: 12px;
+}
+
+/* Content Panel */
+.wy-nav-content {
+    background-color: #eeeeee;
+    min-height: 100vh;
+    min-height: 100vh;
+
+    font-family: 'Arvo', serif;
+}
+
+h1, h2, h3, h4, h5 {
+    margin-top: 16px;
+    font-family: WizardWorldFont;
+}
+
+h2 {
+    opacity: 0.9;
+    margin-left: 20px;
+}
+
+h3, h4, h5 {
+    opacity: 0.9;
+    font-family: MagicTheGathering;
+    letter-spacing: 0.05em;
+    margin-left: 40px;
+}
+
+blockquote {
+    margin-left: 0px !important;
+}
+
+
+/* Footer */
+footer {
+    font-size: 12px;
+}
+
+/* Background */
+.wy-nav-content-wrap {
+    background-color: var(--black_mana);
+}
+
+
