@@ -10,13 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00cc0786-a85d-4852-ae4d-3ad30a4bef7c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom_theme/magic_wiki/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/custom_theme/magic_wiki/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom_theme/magic_wiki/css/magic_theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/custom_theme/magic_wiki/css/magic_theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom_theme/magic_wiki/css/mtg-card.css" beforeDir="false" afterPath="$PROJECT_DIR$/custom_theme/magic_wiki/css/mtg-card.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/decks/gobelins.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/decks/gobelins.md" afterDir="false" />
-    </list>
+    <list default="true" id="00cc0786-a85d-4852-ae4d-3ad30a4bef7c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,11 +47,11 @@
       <recent name="D:\Workspace\cockatrice-magic-wiki\custom_theme" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Workspace\cockatrice-magic-wiki\decks" />
       <recent name="D:\Workspace\cockatrice-magic-wiki\custom_theme\magic_wiki\img" />
       <recent name="D:\Workspace\cockatrice-magic-wiki\custom_theme\magic_wiki\fonts" />
       <recent name="D:\Workspace\cockatrice-magic-wiki\test_theme" />
       <recent name="D:\Workspace\cockatrice-magic-wiki\test_theme\coucou" />
-      <recent name="D:\Workspace\cockatrice-magic-wiki" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -69,7 +63,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604166125026</updated>
       <workItem from="1604166126146" duration="1924000" />
-      <workItem from="1604168084972" duration="20596000" />
+      <workItem from="1604168084972" duration="20917000" />
     </task>
     <task id="LOCAL-00001" summary="WIP">
       <created>1604169497106</created>
@@ -148,7 +142,21 @@
       <option name="project" value="LOCAL" />
       <updated>1604194948433</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="WIP">
+      <created>1604195342356</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1604195342356</updated>
+    </task>
+    <task id="LOCAL-00013" summary="WIP">
+      <created>1604195477792</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1604195477792</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +191,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="774" y="222" key="RollbackChangesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604172253728" />
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1604195479260">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604195479260" />
     <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1604179446573">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
