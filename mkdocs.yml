@@ -9,7 +9,7 @@ nav:
     - Modes: modes.md
     - Formats: formats.md
   - Decks :
-      - Deck 1 : decks/deck1.md
+      - Gobelins : decks/gobelins.md
 
 ## Theme
 theme:

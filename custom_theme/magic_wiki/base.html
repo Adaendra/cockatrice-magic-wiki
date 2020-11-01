@@ -143,10 +143,10 @@
                         var jsonL = JSON.parse(newL);
                         l[i] = "";
                         if (jsonL.link != null && jsonL.link != undefined) {
-                          l[i] = "<a href='" + jsonL.link + "'>"
+                          l[i] = l[i] + "<a href='" + jsonL.link + "'>"
                         }
 
-                        l[i] = "<div class='mtg-card card-" + jsonL.color + "'>"
+                        l[i] = l[i] + "<div class='mtg-card card-" + jsonL.color + "'>"
 
                         l[i] = l[i] + "<div class='mtg-card-top'>"
                         l[i] = l[i] + "<div class='mtg-card-quantity' title='Quantité'>" + jsonL.quantity + "</div>"
@@ -168,7 +168,7 @@
 
                         l[i] = l[i] + "</div>"
                         if (jsonL.link != null && jsonL.link != undefined) {
-                          l[i] = "</a>"
+                          l[i] = l[i] + "</a>"
                         }
 
                       }

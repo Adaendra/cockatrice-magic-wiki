@@ -12,7 +12,9 @@
   <component name="ChangeListManager">
     <list default="true" id="00cc0786-a85d-4852-ae4d-3ad30a4bef7c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom_theme/magic_wiki/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/custom_theme/magic_wiki/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/decks/deck1.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/decks/gobelins.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mkdocs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mkdocs.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604166125026</updated>
       <workItem from="1604166126146" duration="1924000" />
-      <workItem from="1604168084972" duration="18464000" />
+      <workItem from="1604168084972" duration="20117000" />
     </task>
     <task id="LOCAL-00001" summary="WIP">
       <created>1604169497106</created>
@@ -124,7 +126,21 @@
       <option name="project" value="LOCAL" />
       <updated>1604192384217</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="WIP">
+      <created>1604193185986</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1604193185986</updated>
+    </task>
+    <task id="LOCAL-00010" summary="WIP">
+      <created>1604193470854</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1604193470854</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,10 +167,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="715" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604169333284" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1604166199740">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1604193994160">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604166199740" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604193994160" />
     <state x="774" y="222" key="RollbackChangesDialog" timestamp="1604172253728">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
