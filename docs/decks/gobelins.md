@@ -1,7 +1,7 @@
 # Gobelins
 # Gobelins
 
-Lien fichier Cockatrice : https://github.com/Adaendra/cockatrice-magic-wiki/blob/main/decks/Gobelins.cod 
+Lien fichier Cockatrice : [https://github.com/Adaendra/cockatrice-magic-wiki/blob/main/decks/Gobelins.cod](https://github.com/Adaendra/cockatrice-magic-wiki/blob/main/decks/Gobelins.cod) 
 
 ## Deck Principal
 ### Créatures

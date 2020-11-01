@@ -12,4 +12,5 @@ Vous y trouverez aussi des decks déjà construits *(et sûrement pas optimisés
 
 <br/>
 
-Lien des fichiers Cockatrice des decks déjà créés : https://github.com/Adaendra/cockatrice-magic-wiki/blob/main/decks
+Lien des fichiers Cockatrice des decks déjà créés : 
+[https://github.com/Adaendra/cockatrice-magic-wiki/blob/main/decks](https://github.com/Adaendra/cockatrice-magic-wiki/blob/main/decks)
