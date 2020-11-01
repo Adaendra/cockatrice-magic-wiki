@@ -4,6 +4,10 @@
 * **60 Cartes**
 * Maximum **4** cartes possèdant le même nom *(En dehors des terrains)*
 
+### Sous-format
+* **Deck à thème** : Deck respectant un thème particulier *(ex : Toutes les créatures
+doivent être des humains.)*
+
 <br/>
 
 ## Deck Commander
