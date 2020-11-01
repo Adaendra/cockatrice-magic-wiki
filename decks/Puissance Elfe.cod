@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cockatrice_deck version="1">
+    <deckname>Puissance Elfe</deckname>
+    <comments></comments>
+    <zone name="main">
+        <card number="22" name="Forest"/>
+        <card number="2" name="Elvish Farmer"/>
+        <card number="1" name="Elvish Hunter"/>
+        <card number="1" name="Rosethorn Acolyte // Seasonal Ritual"/>
+        <card number="2" name="Viridian Acolyte"/>
+        <card number="2" name="Nurturer Initiate"/>
+        <card number="2" name="Fyndhorn Elder"/>
+        <card number="2" name="Jagged-Scar Archers"/>
+        <card number="2" name="Elvish Archdruid"/>
+        <card number="2" name="Elvish Vanguard"/>
+        <card number="2" name="Wirewood Channeler"/>
+        <card number="2" name="Wall of Ice"/>
+        <card number="1" name="Lys Alana Huntmaster"/>
+        <card number="1" name="Gaea's Touch"/>
+        <card number="1" name="Elven Fortress"/>
+        <card number="2" name="Hardened-Scale Armor"/>
+        <card number="2" name="Spawning Grounds"/>
+        <card number="2" name="Primal Vigor"/>
+        <card number="2" name="Broken Wings"/>
+        <card number="1" name="Ornamental Courage"/>
+        <card number="2" name="Primal Bellow"/>
+        <card number="1" name="Aerial Predation"/>
+        <card number="2" name="Decree of Savagery"/>
+        <card number="1" name="Enlarge"/>
+    </zone>
+</cockatrice_deck>
