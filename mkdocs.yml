@@ -9,7 +9,8 @@ nav:
     - Modes: modes.md
     - Formats: formats.md
   - Decks :
-      - Gobelins : decks/gobelins.md
+    - Classique:
+      - Gobelins : decks/classique/gobelins.md
 
 ## Theme
 theme:
