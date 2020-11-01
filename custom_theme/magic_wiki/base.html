@@ -141,7 +141,11 @@
                       var newL = l[i].substr(3, l[i].length-3-4)
                       if (newL.startsWith('{') && newL.endsWith('}')) {
                         var jsonL = JSON.parse(newL);
-                        console.log(jsonL)
+                        l[i] = "";
+                        if (jsonL.link != null && jsonL.link != undefined) {
+                          l[i] = "<a href='" + jsonL.link + "'>"
+                        }
+
                         l[i] = "<div class='mtg-card card-" + jsonL.color + "'>"
 
                         l[i] = l[i] + "<div class='mtg-card-top'>"
@@ -163,6 +167,9 @@
                         l[i] = l[i] + "</div>" // End Top
 
                         l[i] = l[i] + "</div>"
+                        if (jsonL.link != null && jsonL.link != undefined) {
+                          l[i] = "</a>"
+                        }
 
                       }
                     }

@@ -2,7 +2,7 @@
 
 ## Afficher des cartes
 
-> { "quantity" : 1, "color": "colorless", "name": "Nom de carte", "mana": [{"color":"", "value":"X"}, {"color":"colorless", "value":"4"}, {"color":"blue", "value":"2"}] }
+> { "quantity" : 1, "color": "colorless", "name": "Nom de carte", "link": "https://...", "mana": [{"color":"", "value":"X"}, {"color":"colorless", "value":"4"}, {"color":"blue", "value":"2"}] }
 
 > { "quantity" : 1, "color": "blue", "name": "Nom de carte", "mana": [{"color":"", "value":"X"}, {"color":"", "value":"4"}, {"color":"white", "value":"2"}] }
 
