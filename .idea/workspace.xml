@@ -13,8 +13,9 @@
     <list default="true" id="00cc0786-a85d-4852-ae4d-3ad30a4bef7c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/custom_theme/magic_wiki/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/custom_theme/magic_wiki/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/decks/deck1.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/decks/gobelins.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mkdocs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mkdocs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom_theme/magic_wiki/css/magic_theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/custom_theme/magic_wiki/css/magic_theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/custom_theme/magic_wiki/css/mtg-card.css" beforeDir="false" afterPath="$PROJECT_DIR$/custom_theme/magic_wiki/css/mtg-card.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/decks/gobelins.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/decks/gobelins.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604166125026</updated>
       <workItem from="1604166126146" duration="1924000" />
-      <workItem from="1604168084972" duration="20117000" />
+      <workItem from="1604168084972" duration="20596000" />
     </task>
     <task id="LOCAL-00001" summary="WIP">
       <created>1604169497106</created>
@@ -140,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604193470854</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="WIP">
+      <created>1604194948433</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1604194948433</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

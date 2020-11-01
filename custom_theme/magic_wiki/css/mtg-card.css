@@ -1,7 +1,13 @@
+.a-card {
+    color: #000000 !important;
+    margin-bottom: 4px;
+}
+
 .mtg-card {
     border: solid black 2px;
     border-radius: 4px;
     padding: 4px 8px;
+    margin-bottom: 4px;
 }
 
 .mtg-card-top {
