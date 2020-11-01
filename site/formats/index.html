@@ -162,7 +162,7 @@ Cependant si sa description contient des effets qui peuvent s'appliquer, alors i
                         var jsonL = JSON.parse(newL);
                         l[i] = "";
                         if (jsonL.link != null && jsonL.link != undefined) {
-                          l[i] = l[i] + "<a class='a-card' href='" + jsonL.link + "'>"
+                          l[i] = l[i] + "<a class='a-card' target='_blank' href='" + jsonL.link + "'>"
                         }
 
                         l[i] = l[i] + "<div class='mtg-card card-" + jsonL.color + "'>"

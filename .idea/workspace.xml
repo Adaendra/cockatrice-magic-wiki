@@ -10,13 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00cc0786-a85d-4852-ae4d-3ad30a4bef7c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/mkdocs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mkdocs.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/formats/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/formats/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/modes/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/modes/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/sitemap.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/site/sitemap.xml.gz" afterDir="false" />
-    </list>
+    <list default="true" id="00cc0786-a85d-4852-ae4d-3ad30a4bef7c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,7 +65,7 @@
       <workItem from="1604166126146" duration="1924000" />
       <workItem from="1604168084972" duration="21380000" />
       <workItem from="1604196752336" duration="285000" />
-      <workItem from="1604197670474" duration="146000" />
+      <workItem from="1604197670474" duration="299000" />
     </task>
     <task id="LOCAL-00001" summary="WIP">
       <created>1604169497106</created>
@@ -227,7 +221,21 @@
       <option name="project" value="LOCAL" />
       <updated>1604197767149</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="WIP">
+      <created>1604197861830</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1604197861830</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Add .gitignore">
+      <created>1604197959686</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1604197959686</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,7 +256,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Remove search" />
     <MESSAGE value="WIP" />
-    <option name="LAST_COMMIT_MESSAGE" value="WIP" />
+    <MESSAGE value="Add .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add .gitignore" />
   </component>
   <component name="WindowStateProjectService">
     <state x="715" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604195930848">
@@ -263,10 +272,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="774" y="222" key="RollbackChangesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604172253728" />
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1604197769176">
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1604197960979">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604197769176" />
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604197960979" />
     <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1604179446573">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
