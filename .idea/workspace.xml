@@ -11,7 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00cc0786-a85d-4852-ae4d-3ad30a4bef7c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +66,7 @@
       <updated>1604166125026</updated>
       <workItem from="1604166126146" duration="1924000" />
       <workItem from="1604168084972" duration="21380000" />
+      <workItem from="1604196752336" duration="249000" />
     </task>
     <task id="LOCAL-00001" summary="WIP">
       <created>1604169497106</created>
@@ -186,7 +187,28 @@
       <option name="project" value="LOCAL" />
       <updated>1604195819279</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="WIP">
+      <created>1604196863153</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1604196863153</updated>
+    </task>
+    <task id="LOCAL-00019" summary="WIP">
+      <created>1604196898007</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1604196898007</updated>
+    </task>
+    <task id="LOCAL-00020" summary="WIP">
+      <created>1604196975268</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1604196975268</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +224,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Remove search" />
@@ -221,10 +244,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="774" y="222" key="RollbackChangesDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604172253728" />
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1604195820700">
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1604196978419">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604195820700" />
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1604196978419" />
     <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1604179446573">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
