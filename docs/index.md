@@ -6,7 +6,10 @@ Wiki expliquant différents modes de jeux de Magic The Gathering pouvant être j
 
 Vous y trouverez aussi des decks déjà construits *(et sûrement pas optimisés)* pour 
  pouvoir vous en inspirer ou directement les importer dans Cockatrice pour pouvoir jouer 
- sans perdre de temps.
-
+ sans perdre de temps. 
+ 
 *Good Luck Have Fun*
 
+<br/>
+
+Lien des fichiers Cockatrice des decks déjà créés : https://github.com/Adaendra/cockatrice-magic-wiki/blob/main/decks

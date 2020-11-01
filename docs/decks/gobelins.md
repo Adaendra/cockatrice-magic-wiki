@@ -1,6 +1,8 @@
 # Gobelins
 # Gobelins
 
+Lien fichier Cockatrice : https://github.com/Adaendra/cockatrice-magic-wiki/blob/main/decks/Gobelins.cod 
+
 ## Deck Principal
 ### Créatures
 > { "quantity" : 1, "color": "red", "link": "https://magic-ville.com/fr/carte?ref=mvg032", "name": "Battle Squadron", "mana": [{"color":"", "value":"3"}, {"color":"red", "value":"2"}] }
