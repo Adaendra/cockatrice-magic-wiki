@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="None">
+  <meta name="author" content="Adaendra">
+  
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <title>Cockatrice - Magic The Gathering</title>
+  <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="css/color_palette.css" />
+  <link rel="stylesheet" href="css/fonts.css" />
+  <link rel="stylesheet" href="css/theme.css" />
+  <link rel="stylesheet" href="css/theme_extra.css" />
+  <link rel="stylesheet" href="css/magic_theme.css" />
+  <link rel="stylesheet" href="css/mtg-card.css" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Accueil";
+    var mkdocs_page_input_path = "index.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="js/jquery-2.1.1.min.js" defer></script>
+  <script src="js/modernizr-2.8.3.min.js" defer></script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href="." class="icon icon-home"> Cockatrice - Magic The Gathering</a>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <p class="caption"><span class="caption-text">Modes et formats</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="modes/">Modes</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="formats/">Formats</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Decks</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="decks/gobelins/">Gobelins</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href=".">Cockatrice - Magic The Gathering</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div class="navigation-bar" role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Accueil</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section" id="content-section-js">
+              
+                <script>
+
+                  var l = `<h1 id="cockatrice-magic-the-gathering-wiki">Cockatrice - Magic The Gathering Wiki</h1>
+<h2 id="cockatrice-magic-the-gathering-wiki_1">Cockatrice - Magic The Gathering Wiki</h2>
+<p>Wiki expliquant différents modes de jeux de Magic The Gathering pouvant être joués 
+dans Cockatrice <em>(et en vrai bien-sûr)</em>.</p>
+<p>Vous y trouverez aussi des decks déjà construits <em>(et sûrement pas optimisés)</em> pour 
+pouvoir vous en inspirer ou directement les importer dans Cockatrice pour pouvoir jouer 
+sans perdre de temps.</p>
+<p><em>Good Luck Have Fun</em></p>`.split('\n')
+                  var jsonCard = false;
+                  for(var i=0; i<l.length; i++) {
+                    if (l[i] == '<blockquote>') {
+                      jsonCard = true;
+                    }
+                    if (l[i] == '</blockquote>') {
+                      jsonCard = false;
+                    }
+                    if (jsonCard) {
+                      var newL = l[i].substr(3, l[i].length-3-4)
+                      if (newL.startsWith('{') && newL.endsWith('}')) {
+                        var jsonL = JSON.parse(newL);
+                        l[i] = "";
+                        if (jsonL.link != null && jsonL.link != undefined) {
+                          l[i] = l[i] + "<a class='a-card' href='" + jsonL.link + "'>"
+                        }
+
+                        l[i] = l[i] + "<div class='mtg-card card-" + jsonL.color + "'>"
+
+                        l[i] = l[i] + "<div class='mtg-card-top'>"
+                        l[i] = l[i] + "<div class='mtg-card-quantity' title='Quantité'>" + jsonL.quantity + "</div>"
+                        l[i] = l[i] + "<div class='mtg-card-titre' title='Nom de la carte'>" + jsonL.name + "</div>"
+                        if (jsonL.mana != null && jsonL.mana != undefined) {
+                          l[i] = l[i] + "<div class='mtg-card-mana' title='Mana'>"
+                          for (var j = 0; j < jsonL.mana.length; j++) {
+                            if (jsonL.mana[j].color == '') {
+                              l[i] = l[i] + "<div class='mana-circle mana-any'>" + jsonL.mana[j].value + "</div>";
+                            } else {
+                              for (var k = 0; k < parseInt(jsonL.mana[j].value); k++) {
+                                l[i] = l[i] + "<div class='mana-circle mana-" + jsonL.mana[j].color + "'></div>";
+                              }
+                            }
+                          }
+                          l[i] = l[i] + "</div>" // End Mana
+                        }
+                        l[i] = l[i] + "</div>" // End Top
+
+                        l[i] = l[i] + "</div>"
+                        if (jsonL.link != null && jsonL.link != undefined) {
+                          l[i] = l[i] + "</a>"
+                        }
+
+                      }
+                    }
+                  }
+                  var l2 = "";
+                  for(var i=0; i<l.length; i++) {
+                    if (l[i+1] != null && l[i+1] != undefined) {
+                      l2 = l2 + l[i + 1]
+                    }
+                  }
+
+                  document.getElementById('content-section-js').innerHTML = l2;
+                </script>
+                <!-- <h1 id="cockatrice-magic-the-gathering-wiki">Cockatrice - Magic The Gathering Wiki</h1>
+<h2 id="cockatrice-magic-the-gathering-wiki_1">Cockatrice - Magic The Gathering Wiki</h2>
+<p>Wiki expliquant différents modes de jeux de Magic The Gathering pouvant être joués 
+dans Cockatrice <em>(et en vrai bien-sûr)</em>.</p>
+<p>Vous y trouverez aussi des decks déjà construits <em>(et sûrement pas optimisés)</em> pour 
+pouvoir vous en inspirer ou directement les importer dans Cockatrice pour pouvoir jouer 
+sans perdre de temps.</p>
+<p><em>Good Luck Have Fun</em></p> -->
+              
+            </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+      
+        <span style="margin-left: 15px"><a href="modes/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '.';</script>
+    <script src="js/theme.js" defer></script>
+      <script src="search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(false);
+        };
+    </script>
+
+</body>
+</html>
+
+<!--
+MkDocs version : 1.1.2
+Build Date UTC : 2020-11-01 01:55:16.846668+00:00
+-->
