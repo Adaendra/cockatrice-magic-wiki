@@ -1,6 +1,8 @@
 # Welcome to the Magic Wiki
 
-## Afficher des cartes
+Project to test mkdocs and to generate a custom theme.
+
+## How to list cards
 
 > { "quantity" : 1, "color": "colorless", "name": "Nom de carte", "link": "https://...", "mana": [{"color":"", "value":"X"}, {"color":"colorless", "value":"4"}, {"color":"blue", "value":"2"}] }
 
